@@ -9,3 +9,4 @@ Lägg till åtminstone 7-8 olika planeter av olika storlek, färg och positioner
 - Försök hitta en bild som är passande i ditt solsystem och som du lägger till i sky-komponenten.
 - Lägg till ytterligare som göra att du övar på det du hittills lärt dig.
 
+![solsystem]()
