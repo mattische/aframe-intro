@@ -16,17 +16,26 @@ I den här kursen kommer vi att lära oss om A-Frame, ett verktyg som är lätt 
 
 Det häftiga är att det fungerar i webbläsaren också! Det betyder att vi inte behöver ha ett VR-headset för att bygga och spela med en VR-miljö.
 
+
+## A-Frame
+
 Läs mer om A-Frame här https://aframe.io/
+
+A-Frame är ett webbramverk för att bygga virtuella verklighetsupplevelser (VR). A-Frame är baserat på HTML, vilket gör det enkelt att komma igång. Men A-Frame är inte bara en 3D-scengraf eller ett "markup" språk; kärnan är ett kraftfullt ramverk för komponenter som ger en utbyggbar och komponerbar struktur som bygger på ramverket three.js.
+
+Ursprungligen var A-Frame framtaget för och inom Mozilla men numer underhållet av medskaparna av A-Frame inom Supermedium, A-Frame utvecklades för att vara ett enkelt men kraftfullt sätt att utveckla VR-innehåll. Som ett oberoende projekt med öppen källkod har A-Frame vuxit till att bli en av de större VR-community.
+
+A-Frame stöder de flesta VR-headset som Vive, Rift, Windows Mixed Reality, Cardboard, Oculus Go och kan till och med användas för AR (augmented reality). Även om A-Frame stöder även AR, så är A-Frame mycket väl lämpat att skapa interaktiva VR-upplevelser där bl a s.k 360°-content, positionnering och handkontroller ingår.
 
 ## Komma igång med A-Frame
 
-Det finns i grunden 2 sätt (eller en kombination av bägge):
+Det finns i grunden 2 sätt (eller en kombination av bägge) att börja skapa och komma igång:
 
 1) Använda ett VR-headset och ett tangentbord. 🤯
 2) Att använda en dator, på vanligt sätt.
 
  
-Du behöver inget VR-headset för att ta del eller kunna använda och skapa med A-Frame.
+Notera då att du behöver alltså inget VR-headset för att ta del eller kunna använda och skapa med A-Frame.
 
 Några av headseten som kan användas är;
 
