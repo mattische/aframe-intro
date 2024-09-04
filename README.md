@@ -18,3 +18,23 @@ Det häftiga är att det fungerar i webbläsaren också! Det betyder att vi inte
 
 Läs mer om A-Frame här https://aframe.io/
 
+## Komma igång med A-Frame
+
+Det finns i grunden 2 sätt (eller en kombination av bägge):
+
+1) Använda ett VR-headset och ett tangentbord. 🤯
+2) Att använda en dator, på vanligt sätt.
+
+ 
+Du behöver inget VR-headset för att ta del eller kunna använda och skapa med A-Frame.
+
+Några av headseten som kan användas är;
+
+- Oculus Quest
+- Oculus Rift S 
+- Ventilindex 
+
+Här finns mer detaljerad (och uppdaterad) information om plattformar och headset: https://aframe.io/docs/1.6.0/introduction/vr-headsets-and-webxr-browsers.html#which-platforms-does-a-frame-support
+
+Glöm inte att det går lika bra i webbläsaren också!!
+
