@@ -28,16 +28,18 @@ om du fastnar totalt eller inte har en aning om hur du ska börja kan du ta en t
 
 <details>
 
-<summary>en lösning</summary>
+<summary>solarsystem</summary>
 
-### solarsystem
+### en lösning
 
 Detta är ett alternativ till lösning. Obs, ingen media eller texturer.
 
+Planeterna med ringar runt är egna entiteter
+
 ```html
-   <html>
+<html>
   <head>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene background="color: midnightblue">
@@ -95,7 +97,9 @@ Detta är ett alternativ till lösning. Obs, ingen media eller texturer.
         position="10 2 -10" 
         radius=".75"></a-sphere>
      
-<!-- The other not-so-basic planets. These have rings around them. The rings are made of torii (singular torus) a shape that can be used to make donuts, tubes and yes, ring shapes -->
+<!-- Dessa planeter har ringar runt sig - torii (singular torus) vilket är en primitive/shape som kan användas för att göra "donuts", tuber/tubes och, som i det här fallet, ringar.
+Ringarna är placerade i a-entity, som kan ses som en container/behållare som i sig kan innehålla komponenter (och funktionalitet/interaktivitet).
+ -->
       <a-entity id="saturn-container" position="4 2 -10">
         <a-sphere position="0 0 0 " radius=".8" color="#F8EC99" id="saturn"></a-sphere>
         <a-torus id="saturn-ring-1" color="#57524A" segments-tubular="50" radius="3.2" radius-tubular="0.1" rotation="90 0 0" scale=".44 .44 0.04"></a-torus>
