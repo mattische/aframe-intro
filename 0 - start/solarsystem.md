@@ -16,4 +16,5 @@ Lägg till åtminstone 7-8 olika planeter av olika storlek, färg och positioner
 
 
 ![solsystem](https://github.com/mattische/aframe-intro/blob/77ac0cf15dac19ab102dcc30665c85c0ce037a82/0%20-%20start/solar.png)
+
 *en första början på ett enkelt solsystem skulle kunna se ut så här kanske?*
