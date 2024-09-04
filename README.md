@@ -15,3 +15,6 @@ WebXR är ett API som låter utvecklare skapa XR-upplevelser; en sammanfattande 
 I den här kursen kommer vi att lära oss om A-Frame, ett verktyg som är lätt att komma igång med som använder WebXR för att få tillgång till VR-headsetsensordata (position, orientering, etc.) för att transformera kameran och rendera innehåll direkt till VR-headset.
 
 Det häftiga är att det fungerar i webbläsaren också! Det betyder att vi inte behöver ha ett VR-headset för att bygga och spela med en VR-miljö.
+
+Läs mer om A-Frame här https://aframe.io/
+
