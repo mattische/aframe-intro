@@ -20,7 +20,7 @@ Lägg till åtminstone 7-8 olika planeter av olika storlek, färg och positioner
 *en första början på ett enkelt solsystem skulle kunna se ut så här kanske?*
 
 
-**tips**
+**Tips**
 
 om du fastnar totalt eller inte har en aning om hur du ska börja kan du ta en titt på en alternativ lösning nedan.
 
@@ -30,11 +30,14 @@ om du fastnar totalt eller inte har en aning om hur du ska börja kan du ta en t
 
 <summary>solarsystem</summary>
 
-### en lösning
+### ett solsystem
 
 Detta är ett alternativ till lösning. Obs, ingen media eller texturer.
 
-Planeterna med ringar runt är egna entiteter
+Planeterna med ringar runt är egna entiteter.
+
+Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
+
 
 ```html
 <html>
