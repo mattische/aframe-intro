@@ -8,7 +8,7 @@ Nu har du kommit en bit med A-Frame och det övningen blir slutet för introt ti
 Lägg till åtminstone 7-8 olika planeter av olika storlek, färg och positioner. Lägg till en "sol/stjärna" som är gul och störst av planeterna (himlakropparna).
 - Försök hitta en bild som är passande i ditt solsystem och som du lägger till i sky-komponenten.
 - Hitta ett passande bakgrundsljud som spelar automatiskt.
-- Lägg till ytterligare som gör att du övar på det du hittills lärt dig.
+- Lägg till ytterligare som gör att du övar på det du hittills lärt dig, t ex texturer på dina planeter.
 
 
 
@@ -46,13 +46,13 @@ Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
   </head>
   <body>
     <a-scene background="color: midnightblue">
-      <!-- Sun -->
+      <!-- Solen -->
       <a-sphere 
         color="#F5C85D"
         position="-13 2 -10" 
         radius="4"></a-sphere>
 
-      <!-- Mercury -->
+      <!-- Merkurius -->
       <a-sphere
         color="#AF886D"
         position="-7 2 -10"
@@ -64,7 +64,7 @@ Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
         position="-5 2 -10" 
         radius=".5"></a-sphere>
 
-      <!-- Earth -->
+      <!-- Tellus -->
       <a-sphere 
         color="#6DCBE7"
         position="-3 2 -10" 
@@ -82,7 +82,7 @@ Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
         position="1 2 -10"
         radius="1"></a-sphere>
       
-      <!-- Saturn -->
+      <!-- Saturnus -->
       <a-sphere 
         color="#F8EC99"
         position="4 2 -10" 
@@ -94,7 +94,7 @@ Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
         position="7 2 -10"
         radius=".75"></a-sphere>
 
-      <!-- Neptune -->
+      <!-- Neptun -->
       <a-sphere 
         color="#3453BD"
         position="10 2 -10" 
