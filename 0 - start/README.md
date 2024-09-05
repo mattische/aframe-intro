@@ -7,4 +7,17 @@ Introduktionen till A-Frame innehåller övningar med exempelkod så att du ska 
 
 Övningarna innehåller information om och kommer lära dig om grundläggande kompontenter, primitives, ljussättning, kamera, texturer och t ex hur du kan lägga till media i en 3D-scen.
 
-Starta här -> [0.1 setup och installation](https://github.com/mattische/aframe-intro/blob/53c2dc50933cb35c116698bd4e77c96ffe60bedb/0%20-%20start/0.1%20-%20setup%20och%20installation.md)
+**INSTRUKTIONER**
+
+```
+Börja med innehållet och filerna i följande ordning;
+
+1) 0.1 - setup och installation.md
+2) 0.2 - scene och primitives.md
+3) 0.3 - texturer och attribut.md
+4) x.y - ...md
+osv
+
+När du har läst igenom och tagit del av allt så gör gärna den sista, något större, övningen som finns i
+filen 'solarsystem-md'.
+```
