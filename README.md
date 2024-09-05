@@ -6,17 +6,11 @@ En introduktion inklusive övningar till A-Frame
 Börja med att läsa den här sidan.
 
 
-Gå sedan vidare med att läsa och göra övningarna enligt ordningen i filnamnen.
+Gå sedan vidare med att läsa och göra övningarna enligt ordningen i mappnamnen;
+starta med mappen som heter '0 - start' och ta del av materialet där.
 
+När du är klar har du förhoppningsvis en bra uppfattning om vad A-Frame är och du kan skapa 3-D appar!
 
-1) 0.1 - setup och installation.md
-2) 0.2 - scene och primitives.md
-3) 0.3 - texturer och attribut.md
-4) x.y - ...md
-osv
-
-När du har läst igenom och tagit del av allt så gör gärna den sista, något större, övningen som finns i
-filen 'solarsystem-md'.
 ```
 
 
