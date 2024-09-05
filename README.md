@@ -1,6 +1,24 @@
 # En introduktion till A-Frame
 En introduktion inklusive övningar till A-Frame
 
+**INSTRUKTIONER**
+```
+Börja med att läsa den här sidan.
+
+
+Gå sedan vidare med att läsa och göra övningarna enligt ordningen i filnamnen.
+
+
+1) 0.1 - setup och installation.md
+2) 0.2 - scene och primitives.md
+3) 0.3 - texturer och attribut.md
+4) x.y - ...md
+osv
+
+När du har läst igenom och tagit del av allt så gör gärna den sista, något större, övningen som finns i
+filen 'solarsystem-md'.
+```
+
 
 ## Vad är Virtual Reality?
 
