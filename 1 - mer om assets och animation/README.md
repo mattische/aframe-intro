@@ -6,9 +6,10 @@
 Läs först den här sidan och sedan kan du fortsätta genom att läsa och ta till dig materialet i kronologisk ordning.
 Precis som tidigare, börja med filerna i nummerordning;
 
-- "1.1 - ...md"
-- "1.2 - ...md"
-- "1.3 - ...md"
+1) "1.0 - ...md"
+2) "1.1 - ...md"
+3) "1.2 - ...md"
+4) "1.3 - ...md"
 
 osv
 
