@@ -15,13 +15,16 @@ Titta på nedan exempel - där laddas en 3d-modell in (en .gltf-fil) via assets.
 ```html
 <a-scene>
   <a-assets>
+    <!-- en 3D-modell laddas -->
     <a-asset-item id="tree" src="tree.gltf"></a-asset-item>
   </a-assets>
 
-  <!-- Using the asset management system. -->
+  <!-- här använder vi ovan 'preloadade' modell/asset, vi använde asset management. -->
   <a-gltf-model src="#tree"></a-gltf-model>
 
-  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+  <!-- ok, vi hämtar en asset/modell via src. Detta kallas 'inline'.
+       Inte rekommenderat, men för att testa/i en utvecklingsfas är det ok. 
+       Ändra till asset manegement innan det rullas ut live/i produktion. -->
   <a-gltf-model src="tree.gltf"></a-gltf-model>
 </a-scene>
 ```
@@ -38,4 +41,6 @@ Läs mer här https://aframe.io/docs/1.6.0/components/animation.html
 
 ## interaktion
 kan också göras på flera olika sätt (till väldigt avancerat med egen JavaScript), men allting handlar oftats om att en användare interagerar med något objekt, t ex en box.
+
+Vi ska ta en liten titt på det här i övningarna som kommer.
 
