@@ -7,7 +7,7 @@ Du har tidigare sett och lärt dig att lägga till texturer, bilder, audio och v
 Det kan vara bra att veta att man faktiskt kan infoga t ex bilder direkt via src-attributet för t ex en box.
 Fördelen är att man snabbt kan testa saker, men detta är inte rekommenderat att i förlängningen göra på det sättet.
 
-Använd just asset-management eftersom då "preloadas" all media och är redo för användning. Risken är annars att någon resurs kanske inte laddas in korrekt (särskilt om du har många filer som ska användas).
+Använd just asset-management eftersom då "preloadas" all media och är redo för användning - man försäkrar sig om att alla assets är redo och laddade före dom ska användas. Risken är annars att någon resurs kanske inte laddas in korrekt (särskilt om du har många filer som ska användas) och hela scenen/appen fungerar inte som tänkt.
 
 
 Titta på nedan exempel - där laddas en 3d-modell in (en .gltf-fil) via assets. I själva scenen visas också att modellen kan laddas direkt, men som sagt - det är inte rekommenderat.
