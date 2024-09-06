@@ -4,6 +4,8 @@
 
 ```
 Läs först den här sidan och sedan kan du fortsätta genom att läsa och ta till dig materialet i kronologisk ordning.
+Information varvat med övningar är tänkta att ge dig en introduktion till respektive avsnitt.
+
 Precis som tidigare, börja med filerna i nummerordning;
 
 1) "1.0 - ...md"
