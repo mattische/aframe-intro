@@ -2,6 +2,18 @@
 
 *i det här avsnittet ska vi titta på hur man kan använda 3D-modeller, skapa animationer samt titta på enkel interaktion*
 
+```
+Läs först den här sidan och sedan kan du fortsätta genom att läsa och ta till dig materialet i kronologisk ordning.
+Precis som tidigare, börja med filerna i nummerordning;
+
+- "1.1 - ...md"
+- "1.2 - ...md"
+- "1.3 - ...md"
+
+osv
+
+```
+
 ## ett ord om asset-magement
 Du har tidigare sett och lärt dig att lägga till texturer, bilder, audio och video. För det har du använt asset-manegement med den inbyggda < a-asset > komponenten.
 Det kan vara bra att veta att man faktiskt kan infoga t ex bilder direkt via src-attributet för t ex en box.
