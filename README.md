@@ -9,6 +9,9 @@ Börja med att läsa den här sidan.
 Gå sedan vidare med att läsa och göra övningarna enligt ordningen i mappnamnen;
 starta med mappen som heter '0 - start' och ta del av materialet där.
 
+Fortsätt med innehållet i mapparna i kronologisk ordning för att ta del av mer material.
+Välj själv vad du vill läsa mer om och vilka övningar du vill göra.
+
 När du är klar har du förhoppningsvis en bra uppfattning om vad A-Frame är
 och du kan skapa 3-D appar i webbläsaren!
 
