@@ -106,11 +106,11 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 
 <details>
 
-<summary>Om du kör fast....</summary>
+§<summary>Om du kör fast....</summary>
     
     
     ```html
-    <script>
+        <script>
         AFRAME.registerComponent('school-playground', {
             init: function () {
             // Solution for Modifying Entities.
