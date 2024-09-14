@@ -99,7 +99,8 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 *Tips:*
 
 *du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.*
-*det finns en funktion som heter ```setAttribute()``` som kan användas på * *respektive primitive. T ex ```'geometry', 'height', 0.5```eller ```'rotation', {x: 0, y: 0, z: 0}```*
+
+*det finns en funktion som heter ```setAttribute()``` som kan användas på  respektive primitive. T ex ```'geometry', 'height', 0.5```eller ```'rotation', {x: 0, y: 0, z: 0}```*
 
 <details>
 <summary>Om du kör fast....</summary>
