@@ -105,7 +105,9 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 *se i exemplet ovan...*
 
 <details>
+
 <summary>Om du kör fast....</summary>
+    
     
     ```html
     <script>
@@ -120,6 +122,7 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
         });
         </script>
     ```
+
 </details>
 
 
