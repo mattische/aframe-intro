@@ -65,9 +65,9 @@ Exempel där vi förändrar egenskaper hos några eniteter:
 
 ```html
 let sceneEl = document.querySelector('a-scene'); 
-sceneEl.querySelector('a-box').setAttribute('rotation', {x: 0, y: 0, z: 0});
+sceneEl.querySelector('a-box').setAttribute('light', {color: '#ACC', intensity: 0.75});
 sceneEl.querySelector('a-cylinder').setAttribute('geometry', 'height', 0.5);
-sceneEl.querySelector('a-sphere').setAttribute('material', {metalness: 1});
+sceneEl.querySelector('a-sphere').setAttribute('material', 'color', 'gray');
 ```
 
 Med JS kan vi också t ex lägga till element, events, hantera events etc för element i vår scen.
@@ -129,10 +129,10 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 
             var boxEl = sceneEl.querySelector('a-box')
           
-            boxEl.addEventListener('foo', function () {
+            boxEl.addEventListener('click', function () {
                 boxEl.setAttribute('color', 'blue');  
             });
-            boxEl.emit('foo');
+            boxEl.emit('click');
         });
         </script>
 ```
