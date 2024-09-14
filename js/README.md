@@ -61,8 +61,8 @@ Med JS kan vi t ex;
 - Få en referens till elementet ```<a-scene>``` med ```let sceneEl = document.querySelector('a-scene');```
 - Få en referens till alla ```<a-entity>```-element med ```sceneEl.querySelectorAll('a-entity');```
 - Få en referens till boxentiteten med ```sceneEl.querySelector('#box');```
-- Få en referens till sphere- och cylinder-entiteterna i ett ```.querySelectorAll()```-anrop genom att använda multi-element selector. 
-- Få en referens till sfär- och cylinderentiteterna i ett ```.querySelectorAll()```-anrop genom att lägga till och välja HTML-klasser
+- Få en referens till samtliga entiteter i scenen via ett ```.querySelectorAll()```-anrop genom att använda multi-element selector. 
+- Vi kan också använda ```.querySelectorAll()```-anrop för att välja eventuella HTML-klasser
 
 Exempel där vi förändrar egenskaper hos några eniteter:
 
@@ -73,7 +73,7 @@ sceneEl.querySelector('a-cylinder').setAttribute('geometry', 'height', 0.5);
 sceneEl.querySelector('a-sphere').setAttribute('material', 'color', 'gray');
 ```
 
-Med JS kan vi också t ex lägga till element, events, hantera events etc för element i vår scen.
+Som nämnts tidigare och som en påminnelse; vi kan också t ex lägga till/editera och hantera element, events etc i vår scen.
 
 
 #### Övning med JS
