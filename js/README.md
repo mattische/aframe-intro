@@ -95,12 +95,14 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 - Ändra 'rotation' på box:en (förändra 'rotation'-komponenten för boxen)
 - Ändra 'height' på cylinder (geometry-komponentens property height ska förändras)
 - Ändra sphere så att dess 'material' ändras - du ska ge ett annat värde för 'metalness' property:n
+- Ändra valfria properties på objekten.
+- Se inledande exempel på den här sidan där en funktion läggs till. Utgå ifrån det exemplet och lägg till en egen funktion som gör något du själv hittar på, t ex förändrar färg på en box eller liknande.
+- Läs på om events och lägg till ett click-event för ett objekt. När man klicka på objektet ska du förändra något attribut, t ex färgen. Events: https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html#events-and-event-listeners
 
 *Tips:*
 
 *du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.*
-
-*det finns en funktion som heter ```setAttribute()``` som kan användas på  respektive primitive. T ex ```'geometry', 'height', 0.5```eller ```'rotation', {x: 0, y: 0, z: 0}```*
+*se i exemplet ovan...*
 
 <details>
 <summary>Om du kör fast....</summary>
