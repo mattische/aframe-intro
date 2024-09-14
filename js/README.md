@@ -7,10 +7,16 @@ Precis som vid vanlig webbutveckling. A-Frame ger tillgång till JavaScript, DOM
 
 Vi kan självklart använda **konsollen** i webbläsaren - ```console.log``` är självklart tillgängligt. Ett tips är alltså att 'som vanligt' använda just det för att t ex inspektera element och testa kommandon.
 
-När vi använder JS för att komma åt A-Frame komponenter så rekommenderas ```document.querySelector('a-entity')``` eller ```document.querySelectorAll('a-entity')```
+När vi använder JS för att **komma åt A-Frame komponenter** så rekommenderas att gå via ```document.querySelector('a-entity')``` eller ```document.querySelectorAll('a-entity')```
 
+## Object3D
 
-### infoga JS-kod
+Nu vet vi hur vi kan komma åt en komponent. Om vi sedan ska förändra dess egenskaper och t ex färg eller material så kan vi göra detta via metoden ```setAttribute()```. T ex ```entityEl.setAttribute('material', 'color', 'red');```
+
+Några undantag finns dock, i synnerhet när det gäller positionen, rotationen, skalan eller visibiliteten så rekommenderas att gå via en property direkt på objektet som heter ```object3D```.
+T ex ```entityEl.object3D.position.x += 5;```
+
+## infoga JS-kod
 När du ska infoga JS i din lösning så rekommenderas starkt att du kapslar (registrerar) in din kod som en A-Frame-komponent. 
 Komponenter modulariserar kod, gör logik och beteende synligt för HTML och säkerställer att koden exekveras vid rätt tidpunkt (t.ex. efter att scenen och entiteterna har laddats in och initierats).
 Detta innebär alltså att vi lägger till och registerar vår kod som en komponent till A-Frame.
@@ -92,9 +98,9 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 
 **Gör följande genom att lägga till egen JS-kod till filen ovan:**
 
-- Ändra 'rotation' på box:en (förändra 'rotation'-komponenten för boxen)
-- Ändra 'height' på cylinder (geometry-komponentens property height ska förändras)
-- Ändra sphere så att dess 'material' ändras - du ska ge ett annat värde för 'metalness' property:n
+- Ändra 'rotation' på box:en 
+- Ändra storlek/scale på cylinder 
+- Ändra sphere så den inte inte syns längre (ta ej bort)
 - Ändra valfria properties på objekten.
 - Se inledande exempel på den här sidan där en funktion läggs till. Utgå ifrån det exemplet och lägg till en egen funktion som gör något du själv hittar på, t ex förändrar färg på en box eller liknande.
 - Läs på om events och lägg till ett click-event för ett objekt. När man klicka på objektet ska du förändra något attribut, t ex färgen. Events: https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html#events-and-event-listeners
@@ -116,10 +122,17 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
             init: function () {
             // Solution for Modifying Entities.
             var sceneEl = document.querySelector('a-scene'); 
-            sceneEl.querySelector('a-box').setAttribute('rotation', {x: 0, y: 0, z: 0});
-            sceneEl.querySelector('a-cylinder').setAttribute('geometry', 'height', 0.5);
-            sceneEl.querySelector('a-sphere').setAttribute('material', {metalness: 1});
+            sceneEl.querySelector('a-box').object3D.rotation.divideScalar(2);
+            sceneEl.querySelector('a-cylinder').object3D.scale.set(2, 2, 2);
+            sceneEl.querySelector('a-sphere').object3D.visible = false;
             }
+
+            var boxEl = sceneEl.querySelector('a-box')
+          
+            boxEl.addEventListener('foo', function () {
+                boxEl.setAttribute('color', 'blue');  
+            });
+            boxEl.emit('foo');
         });
         </script>
 ```
