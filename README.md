@@ -22,7 +22,6 @@ och du kan skapa 3-D appar i webbläsaren!
 
 Virtuell verklighet (VR) är en teknik som använder huvudmonterade headset med skärmar för att generera realistiska bilder, ljud och andra sensationer för att försätta användare i en uppslukande virtuell miljö. VR tillåter oss att skapa ogränsade världar som människor kan gå runt och interagera med med sina händer, för att känna sig som om de transporterades till en annan plats.
 
-Det anses fortfarande vara det vilda västern i teknikindustrin⁠—kul, spännande, myllrande av möjligheter och saker och ting ser mycket lovande ut.
 
 ## Vad är WebXR?
 
