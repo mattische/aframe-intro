@@ -17,7 +17,7 @@ Detta innebär alltså att vi lägger till och registerar vår kod som en kompon
 Vi gör det i ```head```i html-filen.
 
 
-Exempelvis, om vi vill skapa en funktion till vilken vi kan skicka en sträng som ska skrivas ut i konsollen med ```console-log``:
+Exempelvis, om vi vill skapa en funktion till vilken vi kan skicka en sträng som ska skrivas ut i konsollen med ```console-log```:
 
 ```html
 <!DOCTYPE html>
