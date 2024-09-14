@@ -3,17 +3,20 @@
 https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 
 Med JavaScript och DOM kan vi programmatiskt ändra scenen och dess komponenter. 
-Precis som vid vanlig webbutveckling. A-Frame ger tillgång till JavaScript, DOM API:er och three.js under huven. Med detta kan vi göra mycket mer avancerad logik.
+Precis som vid vanlig webbutveckling. A-Frame ger tillgång till JavaScript, DOM API:er och three.js under huven. Förutom att förändara egenskaper hos objekt i en scen kan vi lägga till och hantera events, lägga till och ta bort objekt etc etc. Med JS kan vi alltså göra mycket mer avancerad logik.
 
-Vi kan självklart använda **konsollen** i webbläsaren - ```console.log``` är självklart tillgängligt. Ett tips är alltså att 'som vanligt' använda just det för att t ex inspektera element och testa kommandon.
+I förlängningen så innebär ju också detta att vi skulle kunna göra riktigt avancerade applikationer med ramverk, enheter och plattformar inkluderade. Vi skulle kunna använda node, databaser, IoT, mobila enheter, bluetooth etc etc. Detta går vi dock inte in på här :)
 
+Glöm inte att vi självklart kan använda **konsollen** i webbläsaren - ```console.log``` är självklart tillgängligt. Ett tips är alltså att 'som vanligt' använda just det för att t ex inspektera element och testa kommandon.
+
+## querySelector
 När vi använder JS för att **komma åt A-Frame komponenter** så rekommenderas att gå via ```document.querySelector('a-entity')``` eller ```document.querySelectorAll('a-entity')```
 
 ## Object3D
 
 Nu vet vi hur vi kan komma åt en komponent. Om vi sedan ska förändra dess egenskaper och t ex färg eller material så kan vi göra detta via metoden ```setAttribute()```. T ex ```entityEl.setAttribute('material', 'color', 'red');```
 
-Några undantag finns dock, i synnerhet när det gäller positionen, rotationen, skalan eller visibiliteten så rekommenderas att gå via en property direkt på objektet som heter ```object3D```.
+Några undantag finns dock, i synnerhet när det gäller position, rotation, skala och visibilitet så rekommenderas att gå via en property direkt på objektet som heter ```object3D```.
 T ex ```entityEl.object3D.position.x += 5;```
 
 ## infoga JS-kod
