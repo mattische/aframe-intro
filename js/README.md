@@ -96,10 +96,10 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 - Ändra 'height' på cylinder (geometry-komponentens property height ska förändras)
 - Ändra sphere så att dess 'material' ändras - du ska ge ett annat värde för 'metalness' property:n
 
-*Tips: 
+*Tips:*
 
-du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.
-det finns en funktion som heter ```setAttribute()``` som kan användas på respektive primitive. T ex ```'geometry', 'height', 0.5```eller ```'rotation', {x: 0, y: 0, z: 0}````
+*du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.*
+*det finns en funktion som heter ```setAttribute()``` som kan användas på * *respektive primitive. T ex ```'geometry', 'height', 0.5```eller ```'rotation', {x: 0, y: 0, z: 0}```*
 
 <details>
 <summary>Om du kör fast....</summary>
