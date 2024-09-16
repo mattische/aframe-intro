@@ -3,7 +3,8 @@
 https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 
 
-*Det här är en "liten" introduktion till JavaScript i A-Frame. Det finns betydligt mer möjligheter än vad som tas upp här - förhoppningsvis ger detta en ingång och en förståelse för att du ska kunna ta det vidare om du vill.*
+> [!NOTE]
+> Det här är en "liten" introduktion till JavaScript i A-Frame. Det finns betydligt mer möjligheter än vad som tas upp här - förhoppningsvis ger detta en ingång och en förståelse för att du ska kunna ta det vidare om du vill.
 
 #### TOC
 - [intro](#intro)
@@ -122,9 +123,9 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 - Se inledande exempel på den här sidan där en funktion läggs till. Utgå ifrån det exemplet och lägg till en egen funktion som gör något du själv hittar på, t ex förändrar färg på en box eller liknande.
 - Läs på om events och lägg till ett click-event för ett objekt. När man klicka på objektet ska du förändra något attribut, t ex färgen. Events: https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html#events-and-event-listeners
 
-[!TIP]
-du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.
-se i exemplet ovan...
+> [!TIP]
+> du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.
+> se i exemplet ovan...
 
 <details>
 
