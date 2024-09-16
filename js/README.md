@@ -13,6 +13,8 @@ https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 - [Övningar](#Övningar)
 
 
+
+
 ## intro
 Med JavaScript och DOM kan vi programmatiskt ändra scenen och dess komponenter. 
 Precis som vid vanlig webbutveckling. A-Frame ger tillgång till JavaScript, DOM API:er och three.js under huven. Förutom att förändara egenskaper hos objekt i en scen kan vi lägga till och hantera events, lägga till och ta bort objekt etc etc. Med JS kan vi alltså göra mycket mer avancerad logik.
@@ -120,10 +122,9 @@ Utgå ifrån följande scen (copy/paste) till din egna fil:
 - Se inledande exempel på den här sidan där en funktion läggs till. Utgå ifrån det exemplet och lägg till en egen funktion som gör något du själv hittar på, t ex förändrar färg på en box eller liknande.
 - Läs på om events och lägg till ett click-event för ett objekt. När man klicka på objektet ska du förändra något attribut, t ex färgen. Events: https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html#events-and-event-listeners
 
-*Tips:*
-
-*du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.*
-*se i exemplet ovan...*
+[!TIP]
+du kan använda scenens id (js-ex) för att via den komma åt boxen, sfären etc.
+se i exemplet ovan...
 
 <details>
 
