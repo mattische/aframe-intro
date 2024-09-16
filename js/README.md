@@ -9,8 +9,8 @@ https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 - [intro](#intro)
 - [querySelector](#querySelector)
 - [Object3D](#Object3D)
-- [Infoga JS-kod](#infoga JS-kod)
-- [Övningar](#Övning med JS)
+- [Infoga JS-kod](#infoga)
+- [Övningar](#Övningar)
 
 
 ## intro
@@ -31,7 +31,7 @@ Nu vet vi hur vi kan komma åt en komponent. Om vi sedan ska förändra dess ege
 Några undantag finns dock, i synnerhet när det gäller position, rotation, skala och visibilitet så rekommenderas att gå via en property direkt på objektet som heter ```object3D```.
 T ex ```entityEl.object3D.position.x += 5;```
 
-## infoga JS-kod
+## infoga
 När du ska infoga JS i din lösning så rekommenderas starkt att du kapslar (registrerar) in din kod som en A-Frame-komponent. 
 Komponenter modulariserar kod, gör logik och beteende synligt för HTML och säkerställer att koden exekveras vid rätt tidpunkt (t.ex. efter att scenen och entiteterna har laddats in och initierats).
 Detta innebär alltså att vi lägger till och registerar vår kod som en komponent till A-Frame.
@@ -88,7 +88,7 @@ sceneEl.querySelector('a-sphere').setAttribute('material', 'color', 'gray');
 Som nämnts tidigare och som en påminnelse; vi kan också t ex lägga till/editera och hantera element, events etc i vår scen.
 
 
-#### Övning med JS
+## Övningar
 
 Utgå ifrån följande scen (copy/paste) till din egna fil:
 
