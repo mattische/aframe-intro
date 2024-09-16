@@ -2,8 +2,10 @@
 
 https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 
-*Det här är en "liten" introduktion till JavaScript i A-Frame. Det finns betydligt mer möjligheter än vad som tas upp här.
-Förhoppningsvis ger detta en ingång och en förståelse för att du ska kunna ta det viader om du vill.*
+
+*Det här är en "liten" introduktion till JavaScript i A-Frame. Det finns betydligt mer möjligheter än vad som tas upp här - förhoppningsvis ger detta en ingång och en förståelse för att du ska kunna ta det vidare om du vill.*
+
+
 
 Med JavaScript och DOM kan vi programmatiskt ändra scenen och dess komponenter. 
 Precis som vid vanlig webbutveckling. A-Frame ger tillgång till JavaScript, DOM API:er och three.js under huven. Förutom att förändara egenskaper hos objekt i en scen kan vi lägga till och hantera events, lägga till och ta bort objekt etc etc. Med JS kan vi alltså göra mycket mer avancerad logik.
