@@ -7,6 +7,10 @@ https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
 
 #### TOC
 - [intro](#intro)
+- [querySelector](#querySelector)
+- [Object3D](#Object3D)
+- [Infoga JS-kod](#infoga JS-kod)
+- [Övningar](#Övning med JS)
 
 
 ## intro
