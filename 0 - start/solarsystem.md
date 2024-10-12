@@ -22,7 +22,7 @@ Lägg till åtminstone 7-8 olika planeter av olika storlek, färg och positioner
 
 **Tips**
 
-om du fastnar totalt eller inte har en aning om hur du ska börja kan du ta en titt på en alternativ lösning nedan.
+om du fastnar totalt eller inte har en aning om hur du ska börja kan du ta en titt på någon av de alternativa lösningarna nedan.
 
 **Men** - försök själv först!
 
@@ -36,7 +36,7 @@ Detta är ett alternativ till lösning. Obs, ingen media eller texturer.
 
 Planeterna med ringar runt är egna entiteter.
 
-Här finns lösningen live -> https://thoracic-patch-staircase.glitch.me/
+Här finns en lösningen live -> https://thoracic-patch-staircase.glitch.me/
 
 
 ```html
@@ -120,4 +120,12 @@ Ringarna är placerade i a-entity, som kan ses som en container/behållare som i
 </html>
 ```
 
+</details>
+
+<details>
+  <summary>planetarium</summary>
+
+  det här är en annan, mer fancy lösning kallat planetarium, se här:
+
+  https://glitch.com/~starter-aframe-fancy
 </details>
